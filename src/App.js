@@ -10,8 +10,12 @@ function App() {
       <Container>
         <Row>
           <header>
-            Velkommen til minside  
+            Velkommen til minside
           </header>
+        </Row>
+        <Row>
+          <Col> 1 av 1</Col>
+          <Col> 2 av 2</Col>
         </Row>
       </Container>
     </div>
