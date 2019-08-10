@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Card bg="primary" text="white" style={{ width: '18rem' }}>
+      <Card bg="primary" text="white">
         <Card.Header>Header</Card.Header>
         <Card.Body>
           <Card.Title>Primary Card Title</Card.Title>
