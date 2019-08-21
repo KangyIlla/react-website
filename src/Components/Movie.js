@@ -9,7 +9,7 @@ const Movie = ({ movie }) => {
     movie.Poster === "N/A" ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster;
   return (
     <div className="movie">
-      <Card style={{ width: '18rem' }}>
+      <Card>
         <Card.Img variant="top" src={poster} width="200" />
         <Card.Body>
           <Card.Title>{movie.Title}</Card.Title>
